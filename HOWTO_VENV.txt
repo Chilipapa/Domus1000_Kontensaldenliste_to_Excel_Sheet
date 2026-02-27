@@ -1,0 +1,9 @@
+HOWTO: virtuelle Umgebung einrichten
+
+Im Projekt-Root ausführen:
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+Damit wird eine lokale virtuelle Umgebung erstellt, aktiviert und die in `requirements.txt` gelisteten Abhängigkeiten installiert.
